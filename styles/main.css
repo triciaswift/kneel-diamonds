@@ -58,12 +58,16 @@ h6 {
 }
 
 .order {
-  margin: 1rem 1.5rem;
+  margin: 0.5rem 1.5rem;
 }
 
 #placeOrder {
-  background-color: rgb(255, 25, 0);
+  background-color: rgb(251, 60, 75);
   color: white;
   border: 1px solid black;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.customOrders {
+  margin: 4rem 0;
 }
