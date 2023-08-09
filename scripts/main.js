@@ -46,4 +46,9 @@ const render = async () => {
   container.innerHTML = composedHTML;
 };
 
+document.addEventListener("newOrderPlaced", (event) => {
+  console.log("State of data has changed. Regenerating HTML...");
+  render();
+});
+
 render();
