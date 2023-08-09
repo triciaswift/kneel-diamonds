@@ -24,7 +24,7 @@ h6 {
 .choices {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .choices__metals {
@@ -34,7 +34,7 @@ h6 {
   padding: 1rem;
   margin: 0.5rem 0;
   font-size: smaller;
-  flex-basis: 20%;
+  flex-basis: 25%;
 }
 
 .choices__sizes {
@@ -44,7 +44,7 @@ h6 {
   padding: 1rem;
   margin: 0.5rem 0;
   font-size: smaller;
-  flex-basis: 20%;
+  flex-basis: 25%;
 }
 
 .choices__styles {
@@ -54,5 +54,16 @@ h6 {
   padding: 1rem;
   margin: 0.5rem 0;
   font-size: smaller;
-  flex-basis: 20%;
+  flex-basis: 25%;
+}
+
+.order {
+  margin: 1rem 1.5rem;
+}
+
+#placeOrder {
+  background-color: rgb(255, 25, 0);
+  color: white;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
