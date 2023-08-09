@@ -20,3 +20,39 @@ h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.choices__metals {
+  border: 1px dashed royalblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: smaller;
+  flex-basis: 20%;
+}
+
+.choices__sizes {
+  border: 1px dashed royalblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: smaller;
+  flex-basis: 20%;
+}
+
+.choices__styles {
+  border: 1px dashed royalblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: smaller;
+  flex-basis: 20%;
+}
